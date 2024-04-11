@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hockey's</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <style>
+        .manrope {
+            font-family: "Manrope", sans-serif;
+            font-optical-sizing: auto;
+        }
+    </style>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="manrope">
+    <div class="container mx-auto px-8 lg:px-8">
+        <div class="carousel w-full h-[80vh]">
+            <div id="slide1" class="carousel-item relative w-full rounded-3xl bg-[url(./images/1.png)] bg-cover bg-center">
+              <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 bottom-0 space-x-6">
+                <a href="#slide4" class="btn btn-circle bg-[#131318] text-white border-none">❮</a> 
+                <a href="#slide2" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full rounded-3xl bg-[url(./images/2.png)] bg-cover bg-center">
+              <!-- <img src="Images/2.png" class="w-full" /> -->
+              <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 bottom-0 space-x-6">
+                <a href="#slide1" class="btn btn-circle bg-[#131318] text-white border-none">❮</a> 
+                <a href="#slide3" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full rounded-3xl bg-[url(./images/3.png)] bg-cover bg-center">
+              <!-- <img src="Images/3.png" class="w-full" /> -->
+              <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 bottom-0 space-x-6">
+                <a href="#slide2" class="btn btn-circle bg-[#131318] text-white border-none">❮</a> 
+                <a href="#slide4" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full rounded-3xl bg-[url(./images/4.png)] bg-cover bg-center">
+              <!-- <img src="Images/4.png" class="w-full" /> -->
+              <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 bottom-0 space-x-6">
+                <a href="#slide3" class="btn btn-circle bg-[#131318] text-white border-none">❮</a> 
+                <a href="#slide1" class="btn btn-circle bg-[#131318] text-white border-none">❯</a>
+              </div>
+            </div>
+        </div>
+    </div>
+    <section class="my-48">
+        <div class="container mx-auto px-8 lg:px-8">
+            <div>
+                <h1 class="text-4xl text-center font-extrabold font-Manrope">Professional Hockeys Club</h1>
+                <p class="font-medium text-center w-2/5 mx-auto my-6">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin.</p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 py-16">
+                <div class="flex flex-col justify-center items-center">
+                    <div class="radial-progress font-extrabold text-3xl text-[#FF4240]" style="--value:87; --size:8rem; --thickness: 12px;" role="progressbar"><span class="text-[#131318]">87%</span></div>
+                    <h6 class="font-semibold text-xl text-center my-3">Prayer Facility</h6>
+                    <p class="text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="radial-progress font-extrabold text-3xl text-[#49D293]" style="--value:95; --size:8rem; --thickness: 12px;" role="progressbar"><span class="text-[#131318]">95%</span></div>
+                    <h6 class="font-semibold text-xl text-center my-3">Experienced Coach</h6>
+                    <p class="text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="radial-progress font-extrabold text-3xl text-[#FFB546]" style="--value:90; --size:8rem; --thickness: 12px;" role="progressbar"><span class="text-[#131318]">90%</span></div>
+                    <h6 class="font-semibold text-xl text-center my-3">Senior Player</h6>
+                    <p class="text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+                <div class="flex flex-col justify-center items-center">
+                    <div class="radial-progress font-extrabold text-3xl text-[#4C8DF1]" style="--value:87; --size:8rem; --thickness: 12px;" role="progressbar"><span class="text-[#131318]">87%</span></div>
+                    <h6 class="font-semibold text-xl text-center my-3">Training Ground</h6>
+                    <p class="text-center">Amet consectetur. Condimentum dignissim adipiscing .</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
